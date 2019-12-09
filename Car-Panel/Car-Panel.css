@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+   background-color: rgba(0, 102, 255, 0.3);
+   font-style: Verdana;
+}
+
+.StatusLeiste{
+    height: 20%;
+    display: grid;
+    grid-template-columns: 1lfr 1lfr;
+    grid-template-areas: "Datum Uhrzeit";
+    border-radius: 10px;
+}
+
+.grid-container {
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "music CarFunctions Navigations" "VehicleData Platzhalter1 Platzhalter2";
+    
+ 
+  }
+
+.ButtonMain {
+    background-color: rgba(0, 102, 255, 0.4);
+    margin: 30px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Helvetica Neue', sans-serif;
+
+}
+
+#music {
+    grid-area: music;
+} 
+#CarFunctions {
+    grid-area: CarFunctions;
+}
+#Navigations{ 
+    grid-area: Navigations;
+}
+#Platzhalter1{
+    grid-area: Platzhalter1;
+}
+#VehicleData {
+    grid-area: VehicleData;
+}
+#Platzhalter2{
+    grid-area: Platzhalter2;
+}
+#Datum{
+    grid-area: Datum;
+    margin: 30px;
+    background-color: rgba(0, 102, 255, 0.4);
+    border-radius: 40px;
+
+}
+#Uhrzeit{
+    grid-area: Uhrzeit;
+    margin: 30px;
+    background-color: rgba(0, 102, 255, 0.4);
+    border-radius: 40px;
+
+}
+.DatumundUhrzeit {
+text-align: center;
+vertical-align: middle;
+font-size: 200%;
+font-family: 'Helvetica Neue', sans-serif;
+
+}

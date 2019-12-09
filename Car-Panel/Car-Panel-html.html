@@ -3,15 +3,29 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DOM Manipulation</title>
+    <title>Car-Panel</title>
     <link rel="stylesheet" href="Car-Panel.css">
 </head>
 
-<body >
+<body onload="DateandTime()">
 
-   
+    <div class="StatusLeiste">
+        <div id="Datum">  <p class="DatumundUhrzeit" id="Date"></p>   </div>
 
-    <script src=""></script>
+        <div id="Uhrzeit"> <p class="DatumundUhrzeit" id="Time"></p> </div>
+
+    </div>
+    <div class="grid-container">
+        <div class="ButtonMain" id="music" >Music</div>
+        <div class="ButtonMain" id="CarFunctions">Car Functions</div>
+        <div class="ButtonMain" id="Navigations">Navigations</div>
+        <div class="ButtonMain" id="VehicleData">Vehicle Data</div>
+        <div class="ButtonMain" id="Platzhalter1">Platzhalter 1</div>
+        <div class="ButtonMain" id="Platzhalter2">Platzhalter 2</div>
+
+    </div>
+
+    <script src="Car-Panel.js"></script>
 </body>
 
 </html>
